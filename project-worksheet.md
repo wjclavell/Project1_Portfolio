@@ -21,14 +21,14 @@ You are **responsible** for scheduling time with your squad to seek approval for
 My final project will be a personal portfolio website. It will include my projects that I've worked on (displayed in a dropdown menu and a image carousel), an About Me section, Skills section, and Contact form. Along with a header with my monogram, navbar/hamburger at top with links for each section & my personal logo, and a footer at the bottom including links to my social media and back to top button. I will be implementing scroll animations for each section and a dark/light mode feature as well.
 
 Some design inspirations:
-http://findmatthew.com/
-https://loerarchitecten.com/en/
-https://www.apple.com/macbook-pro-16/
-http://ejosue.com/
+- http://findmatthew.com/
+- https://loerarchitecten.com/en/
+- https://www.apple.com/macbook-pro-16/
+- http://ejosue.com/
 
 ## Google Sheet
 
-Include link to your google sheet here.  Here is the sample [Suresh had used in class](https://docs.google.com/spreadsheets/d/1V1M3Eq1NXH2PNmeTlVviRhEjX9kenq769Vo2P5mMtro/edit#gid=0) 
+List of [projects](https://docs.google.com/spreadsheets/d/18r08nO91byLTxZ8zVRghWGyLtIKrXzBa8P6sGM9T19M/edit#gid=0)
 
 ## Wireframes
 
