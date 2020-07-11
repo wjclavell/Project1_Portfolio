@@ -18,7 +18,13 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+My final project will be a personal portfolio website. It will include my projects that I've worked on (displayed in a dropdown menu and a image carousel), an About Me section, Skills section, and Contact form. Along with a header with my monogram, navbar/hamburger at top with links for each section & my personal logo, and a footer at the bottom including links to my social media and back to top button. I will be implementing scroll animations for each section and a dark/light mode feature as well.
+
+Some design inspirations:
+http://findmatthew.com/
+https://loerarchitecten.com/en/
+https://www.apple.com/macbook-pro-16/
+http://ejosue.com/
 
 ## Google Sheet
 
@@ -42,7 +48,7 @@ Wireframing Resources:
 
 List of features to be included, prioritized in a [Time and Priority Matrix](https://res.cloudinary.com/wjclavell/image/upload/v1594481600/Time-Priority-Matrix_project1.png)
 
-Estimated time to complete: 20hrs (feel like it will definitely be more oncw I get started) 
+Estimated time to complete: 20hrs (feel like it will definitely be more once I get started) 
 
 Break those features into MVP and PostMVP so you can guarantee you will have a fully functioning project to demo. 
 
