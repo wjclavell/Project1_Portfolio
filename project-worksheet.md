@@ -34,7 +34,7 @@ List of [projects](https://docs.google.com/spreadsheets/d/18r08nO91byLTxZ8zVRghW
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
 
-- [Mobile](https://git.generalassemb.ly/SEIR-629/project-1-portfolio/blob/master/readme-assets/mobile.png)
+- [Mobile](https://res.cloudinary.com/wjclavell/image/upload/v1594606509/mobile-wireframe_wfp670.png)
 - [Tablet](https://git.generalassemb.ly/SEIR-629/project-1-portfolio/blob/master/readme-assets/nav-highlight.gif)
 - [Desktop](https://git.generalassemb.ly/SEIR-629/project-1-portfolio/blob/master/readme-assets/desktop.png)
 
@@ -60,12 +60,24 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 - Pull data using google json api
 - Render data on page 
-- Allow user to choose favorites 
-- Save their choices in firebase
+- About me, contact, projects, skills sections 
+- hamburger menu on mobile
+- sticky nav bar on desktop
+- project carousel
+- project dropdown menu
+- grid layout
+- flex sections
+- hover description for projects
+- monogram at top
 
 #### PostMVP 
 
-- Anything else that is not MVP
+- Scroll animations
+- dark/light mode
+- personal logo
+- custom cursor
+- implement drawing app functionality into website
+
 
 ## Functional Components
 
@@ -76,26 +88,28 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### MVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Hamburger | H | 1hr | 1.5hr | -hr|
-| Project Previews | H | 3hr | -hr | -hr|
-| Regular Nav | H | H | -hr | -hr|
-| Adding Form | H | 1.5hr| -hr | -hr |
-| Other sections and flex| M | 4hr | 2hr | -hr|
-| Working with API | H | 3hrs| 2hr | -hr |
-| Responsive | H | 3hr | -hr | -hr|
-| Social Media Icons | L | 1hr | -hr | -hr|
-| Total | H | 15.5hrs| -hrs | -hrs |
+| Hamburger | H | 1.5hr | -hr | -hr|
+| Project carousel | H | 2hr | -hr | -hr|
+| Sticky Nav | H | 1hr | -hr | -hr|
+| Grid and flex layout | H | 1.5hr| -hr | -hr |
+| Other sections| H | 2hr | -hr | -hr|
+| Project dropdow menu | M | 1.5hrs| -hr | -hr |
+| Responsive | H | 2hr | -hr | -hr|
+| Social Media Icons | L | .5hr | -hr | -hr|
+| Project hover description | M | 1hr| -hr | -hr |
+| Google API | H | 1hr | -hr | -hr|
+| Monogram | L | .5hr | -hr | -hr|
+| Total | - | 14.5hrs| -hrs | -hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Project Hover | L | 3hr | -hr | -hr|
-| Banner letters wiggle | L | 1hr | -hr | -hr|
-| Interactive Banner | M | 4hr | -hr | -hr|
-| Materialize | H | 4hr | -hr | -hr|
-| Bootstrap | H | 4hr | -hr | -hr|
-| Make own icon | L | 4hr | -hr | -hr|
-| Total | H | 20hrs| -hrs | -hrs |
+| Scroll animations | H | 2.5hr | -hr | -hr|
+| Dark/light mode | M | 1hr | -hr | -hr|
+| Personal logo | L | 1.5hr | -hr | -hr|
+| Custom cursor | M | 1.5hr | -hr | -hr|
+| Drawing functionality | L | 2hr | -hr | -hr|
+| Total | - | 8.5hrs| -hrs | -hrs |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 
