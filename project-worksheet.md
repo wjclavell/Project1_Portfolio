@@ -35,7 +35,7 @@ List of [projects](https://docs.google.com/spreadsheets/d/18r08nO91byLTxZ8zVRghW
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
 
 - [Mobile](https://res.cloudinary.com/wjclavell/image/upload/v1594606509/mobile-wireframe_wfp670.png)
-- [Tablet](https://git.generalassemb.ly/SEIR-629/project-1-portfolio/blob/master/readme-assets/nav-highlight.gif)
+- [Tablet](https://res.cloudinary.com/wjclavell/image/upload/v1594654476/tablet-wireframe_cpjruc.png)
 - [Desktop](https://git.generalassemb.ly/SEIR-629/project-1-portfolio/blob/master/readme-assets/desktop.png)
 
 Wireframing Resources:
@@ -56,7 +56,7 @@ Break those features into MVP and PostMVP so you can guarantee you will have a f
 
 The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 
-#### MVP (examples)
+#### MVP
 
 - Pull data using google json api
 - Render data on page 
