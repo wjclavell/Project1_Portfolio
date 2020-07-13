@@ -94,14 +94,22 @@ h1 {
   background-color: #00093c;
 }
 .about-me img {
-  height: 30%;
+  height: 40%;
   margin: 1em 0;
 }
-.about-me p {
+#about-p {
   margin: 0 1em;
   text-align: center;
   line-height: 2em;
+  letter-spacing: 0.15em;
   color: white;
-  font-family: "lora";
-  max-height: 200px;
+  text-overflow: ellipsis;
+}
+#more {
+  display: none;
+}
+#read-more {
+  color: white;
+  background-color: transparent;
+  border: none;
 }
