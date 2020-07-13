@@ -36,7 +36,51 @@ nav {
 
 /* Header */
 header {
-  height: 30vh;
+  height: 40vh;
   grid-area: head;
   background: #00093c;
+}
+
+/* welcome message */
+.welcome {
+  grid-area: wel;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00093c;
+}
+h1 {
+  color: white;
+  text-align: center;
+  margin: 0.75em;
+}
+
+/* Projects */
+.projects {
+  height: 60vh;
+  grid-area: proj;
+  background-color: #01185e;
+}
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-container img {
+  height: 150px;
+  border: 5px solid #dd1010;
+}
+.img-container button {
+  color: #9e9e9e;
+  height: 3em;
+  width: 3em;
+  margin: 0 0.75em;
+  padding: 0;
+  border-radius: 3em;
+  border: none;
+  box-shadow: 0 0 1em 0.5em #020516;
+}
+.fa-chevron-right,
+.fa-chevron-left {
+  transform: scale(1.5);
 }
