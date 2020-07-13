@@ -84,3 +84,24 @@ h1 {
 .fa-chevron-left {
   transform: scale(1.5);
 }
+
+/* About Me */
+.about-me {
+  grid-area: am;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #00093c;
+}
+.about-me img {
+  height: 30%;
+  margin: 1em 0;
+}
+.about-me p {
+  margin: 0 1em;
+  text-align: center;
+  line-height: 2em;
+  color: white;
+  font-family: "lora";
+  max-height: 200px;
+}
