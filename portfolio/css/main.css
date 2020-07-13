@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Francois One", sans-serif;
+  display: grid;
+  grid-template-areas:
+    "nav nav nav nav nav"
+    "head head head head head"
+    "wel wel wel wel wel"
+    "proj proj proj proj proj"
+    "am am am am am"
+    "skl skl skl skl skl"
+    "con con con con con"
+    "foot foot foot foot foot";
+}
+/* NAVIGATION */
+nav {
+  grid-area: nav;
+  background-color: #01185e;
+  width: 100%;
+  height: 2.5em;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fa-bars {
+  color: #dd1010;
+  margin: 0 1em;
+  transform: scale(1.5);
+}
+.fa-sun {
+  color: white;
+  margin: 0 1em;
+  transform: scale(1.5);
+}
+
+/* Header */
+header {
+  height: 30vh;
+  grid-area: head;
+  background: #00093c;
+}
