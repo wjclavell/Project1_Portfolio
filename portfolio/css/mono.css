@@ -68,8 +68,6 @@ header {
   grid-area: w10;
   background-color: red;
   border-radius: 0 100% 0 0;
-  box-shadow: 0.25em 0 white;
-  z-index: -1;
 }
 .w11 {
   grid-area: w11;
@@ -224,7 +222,7 @@ header {
   grid-area: h7;
 }
 .img {
-  background-image: url(assets/scenic-sunset.jpg);
+  background-image: url(https://www.publicdomainpictures.net/pictures/300000/velka/degrade-texture-11.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
