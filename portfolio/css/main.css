@@ -173,13 +173,23 @@ h1 {
   grid-area: proj;
   background-color: #01185e;
 }
-.img-container {
+.swiper-container {
+  width: 90vw;
+  height: 50vh;
+}
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* .img-container {
   display: flex;
   flex-direction: column;
   padding: 2em 1em;
   justify-content: center;
   align-items: center;
-}
+} */
 .project-shown {
   cursor: pointer;
   width: 80vw;
@@ -190,8 +200,13 @@ h1 {
   filter: brightness(0.5);
 }
 .description {
-  display: none;
+  display: inline;
+  text-align: center;
+  position: relative;
+  bottom: 300px;
+  width: 80%;
 }
+/*
 .img-container a:hover .description {
   display: flex;
   flex-direction: column;
@@ -227,7 +242,7 @@ p {
 .fa-chevron-right,
 .fa-chevron-left {
   transform: scale(1.5);
-}
+} */
 
 /* About Me */
 .about-me {
