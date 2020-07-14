@@ -190,9 +190,14 @@ h1 {
 }
 .swiper-slide h1 {
   color: #dd1010;
-  text-decoration: none;
   margin: 0;
   padding: 0;
+}
+.swiper-slide a {
+  text-decoration: none;
+}
+.swiper-slide a:hover {
+  text-decoration: underline #dd1010;
 }
 .swiper-slide p {
   color: white;

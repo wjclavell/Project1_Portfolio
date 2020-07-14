@@ -56,7 +56,6 @@ for (url in skills) {
 //*projects slider
 //initialize
 let mySwiper = new Swiper(".swiper-container", {
-  loop: true,
   //add cube effect and set params
   effect: "cube",
   grabCursor: true,
