@@ -56,6 +56,14 @@ for (url in skills) {
 //*projects slider
 let mySwiper = new Swiper(".swiper-container", {
   loop: true,
+  effect: "cube",
+  grabCursor: true,
+  cubeEffect: {
+    shadow: true,
+    slideShadows: false,
+    shadowOffset: 20,
+    shadowScale: 0.94,
+  },
 
   pagination: {
     el: ".swiper-pagination",

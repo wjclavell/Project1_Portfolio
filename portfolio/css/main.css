@@ -173,9 +173,14 @@ h1 {
   grid-area: proj;
   background-color: #01185e;
 }
+.projects h1 {
+  margin: 0;
+  margin-top: 1em;
+}
 .swiper-container {
   width: 90vw;
   height: 70vh;
+  margin-top: 0;
 }
 .swiper-slide {
   display: flex;
@@ -193,13 +198,6 @@ h1 {
   color: white;
   text-align: center;
 }
-/* .img-container {
-  display: flex;
-  flex-direction: column;
-  padding: 2em 1em;
-  justify-content: center;
-  align-items: center;
-} */
 .project-shown {
   cursor: pointer;
   width: 80vw;
@@ -216,45 +214,11 @@ h1 {
   text-align: center;
   position: relative;
   bottom: 300px;
-  width: 80%;
 }
-/*
-.img-container a:hover .description {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  bottom: 300px;
-  text-align: center;
-  width: 80vw;
-  color: white;
+.swiper-button-prev,
+.swiper-button-next {
+  transform: scale(1.2);
 }
-.description:hover {
-  background-color: #00093c;
-  opacity: 90%;
-}
-.description h1,
-p {
-  text-decoration: none;
-}
-.img-container button {
-  color: #9e9e9e;
-  height: 3em;
-  width: 3em;
-  margin: 2em 2em;
-  padding: 0;
-  border-radius: 3em;
-  border: none;
-  box-shadow: 0 0 1em 0.5em #020516;
-}
-.img-container button:hover {
-  box-shadow: 0 0 1em 0.5em #e3e3e6;
-}
-.fa-chevron-right,
-.fa-chevron-left {
-  transform: scale(1.5);
-} */
 
 /* About Me */
 .about-me {
