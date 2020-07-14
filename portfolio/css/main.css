@@ -15,6 +15,9 @@ body {
 }
 /* NAVIGATION */
 nav {
+  position: fixed;
+  top: 0;
+  left: 0;
   grid-area: nav;
   background-color: #01185e;
   width: 100%;
@@ -22,6 +25,7 @@ nav {
   display: inline-flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 2;
 }
 .fa-bars {
   color: #dd1010;
@@ -36,6 +40,7 @@ nav {
 
 /* Header */
 header {
+  margin-top: 1em;
   height: 40vh;
   grid-area: head;
   background: #00093c;
@@ -57,28 +62,32 @@ h1 {
 
 /* Projects */
 .projects {
-  height: 60vh;
   grid-area: proj;
   background-color: #01185e;
 }
 .img-container {
   display: flex;
+  flex-direction: column;
+  padding: 2em 1em;
   justify-content: center;
   align-items: center;
 }
 .img-container img {
-  height: 150px;
+  height: 200px;
   border: 5px solid #dd1010;
 }
 .img-container button {
   color: #9e9e9e;
   height: 3em;
   width: 3em;
-  margin: 0 0.75em;
+  margin: 2em 2em;
   padding: 0;
   border-radius: 3em;
   border: none;
   box-shadow: 0 0 1em 0.5em #020516;
+}
+.img-container button:hover {
+  box-shadow: 0 0 1em 0.5em #e3e3e6;
 }
 .fa-chevron-right,
 .fa-chevron-left {
@@ -94,8 +103,10 @@ h1 {
   background-color: #00093c;
 }
 .about-me img {
-  height: 40%;
+  height: 12em;
   margin: 1em 0;
+  border: 5px solid #dd1010;
+  border-radius: 100%;
 }
 #about-p {
   margin: 0 1em;
@@ -148,7 +159,7 @@ h1 {
   padding: 25px 15px 15px 15px;
   border-radius: 20px;
   background: #ecf0f3;
-  box-shadow: 7px 7px 15px #040a1b, -7px -7px 15px #203881;
+  box-shadow: 7px 7px 10px #040a1b, -7px -7px 10px #203881;
 }
 #contact-form {
   width: 100%;
@@ -201,4 +212,27 @@ h1 {
 .submit:hover {
   cursor: pointer;
   background: #940a0a;
+}
+
+/* Footer */
+footer {
+  grid-area: foot;
+  background-color: #01185e;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 2em;
+  margin: 0;
+  padding: 0;
+}
+footer h1 {
+  font-size: 0.5em;
+}
+.icons i {
+  color: #dd1010;
+  margin: 0 0.25em;
+}
+.fa-caret-up {
+  color: white;
+  transform: scale(2);
 }
