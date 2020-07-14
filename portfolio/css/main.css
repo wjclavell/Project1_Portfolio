@@ -175,13 +175,23 @@ h1 {
 }
 .swiper-container {
   width: 90vw;
-  height: 50vh;
+  height: 70vh;
 }
 .swiper-slide {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.swiper-slide h1 {
+  color: #dd1010;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+.swiper-slide p {
+  color: white;
+  text-align: center;
 }
 /* .img-container {
   display: flex;
@@ -194,10 +204,12 @@ h1 {
   cursor: pointer;
   width: 80vw;
   border: 5px solid #dd1010;
-  border-radius: 1em;
 }
 .project-shown:hover {
   filter: brightness(0.5);
+}
+.description {
+  display: none;
 }
 .description {
   display: inline;
