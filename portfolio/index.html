@@ -28,13 +28,33 @@
     <script src="app.js" defer></script>
   </head>
   <body>
-    <nav>
-      <i class="fas fa-bars"></i>
+    <div class="nav">
+      <input type="checkbox" id="close" />
+      <label for="close">
+        <span class="fas fa-bars"></span>
+      </label>
       <i class="fas fa-sun"></i>
+
+      <nav class="burger">
+        <a class="logo">WC</a>
+        <label class="fas fa-times" for="close"></label>
+        <ul>
+          <li>
+            <i class="fas fa-project-diagram"></i
+            ><a href="#projects">Projects</a>
+          </li>
+          <li><i class="fas fa-user"></i><a href="#about-me">About Me</a></li>
+          <li><i class="fas fa-th"></i><a href="#my-skills">My Skills</a></li>
+          <li>
+            <i class="fas fa-comment-dots"></i
+            ><a href="#contact-page">Contact Me</a>
+          </li>
+        </ul>
+      </nav>
       <!-- MOON ICON
         <i class="fas fa-moon"></i>
       -->
-    </nav>
+    </div>
     <header id="WJC">
       <section class="w">
         <div class="hidden h1"></div>
@@ -84,7 +104,7 @@
         below
       </h1>
     </section>
-    <section class="projects">
+    <section class="projects" id="projects">
       <h1>Projects</h1>
       <div class="img-container">
         <a href="https://wjclavell.com/Pokemon-Battle/">
@@ -108,7 +128,7 @@
         </div>
       </div>
     </section>
-    <section class="about-me">
+    <section class="about-me" id="about-me">
       <h1>About Me</h1>
       <img src="https://i.imgur.com/yziT7Tv.png" />
       <p id="about-p">
@@ -132,7 +152,7 @@
         read more <i class="fas fa-chevron-down"></i>
       </button>
     </section>
-    <section class="my-skills">
+    <section class="my-skills" id="my-skills">
       <h1>My Skills</h1>
       <div class="skill-container"></div>
     </section>

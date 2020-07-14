@@ -14,7 +14,7 @@ body {
     "foot foot foot foot foot";
 }
 /* NAVIGATION */
-nav {
+.nav {
   position: fixed;
   top: 0;
   left: 0;
@@ -24,18 +24,126 @@ nav {
   height: 3em;
   display: inline-flex;
   justify-content: space-between;
-  align-items: center;
+  box-shadow: 2em 0 3em 1em #020516;
   z-index: 2;
 }
+/* Hamburger menu code inspired by @webdesigntips on Instagram */
+.burger {
+  position: fixed;
+  width: 100vw;
+  height: 80vh;
+  left: -110%;
+  overflow: hidden;
+  background-color: #01185e;
+  box-shadow: -2em 0 3em 2em #020516;
+  transition: 0.4s;
+}
 .fa-bars {
+  cursor: pointer;
   color: #dd1010;
   margin: 0 1em;
   transform: scale(1.5);
+  transition: 0.4s;
+}
+.fa-bars:hover {
+  color: white;
+}
+.burger .logo {
+  position: absolute;
+  left: 2em;
+  top: 1em;
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+}
+.burger label {
+  position: absolute;
+  right: 3em;
+  top: 2em;
+  padding: 5px 8px;
+  color: white;
+  transform: scale(2);
+  cursor: pointer;
+  transition: 0.4s;
+}
+.burger label:hover {
+  color: #dd1010;
+}
+.burger ul {
+  position: absolute;
+  top: 100px;
+}
+.burger ul li {
+  list-style: none;
+  padding: 25px 40px;
+  color: white;
+  width: 320px;
+  margin-left: -50px;
+  opacity: 0;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+.burger ul li:hover {
+  font-size: 1.2em;
+}
+.burger ul li i {
+  color: #dd1010;
+  transform: scale(1.5);
+}
+.burger ul li a {
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  font-size: 1.5em;
+  font-weight: 500;
+  transform: translateY(-5px);
+  left: 6em;
+}
+label span {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 1em;
+  left: 1em;
+  padding: 9px;
+}
+input {
+  display: none;
+}
+input:checked ~ label span {
+  opacity: 0;
+  pointer-events: none;
+}
+input:checked ~ nav {
+  left: 0;
+}
+input:checked ~ nav ul li {
+  margin-left: 0;
+  opacity: 1;
+}
+input:checked ~ nav ul li:nth-child(1) {
+  transition-delay: 0.2s;
+}
+input:checked ~ nav ul li:nth-child(2) {
+  transition-delay: 0.4s;
+}
+input:checked ~ nav ul li:nth-child(3) {
+  transition-delay: 0.6s;
+}
+input:checked ~ nav ul li:nth-child(4) {
+  transition-delay: 0.8s;
 }
 .fa-sun {
   color: white;
+  position: absolute;
+  top: 1em;
+  right: 1em;
   margin: 0 1em;
   transform: scale(1.5);
+  transition: 0.4s;
+}
+.fa-sun:hover {
+  color: #dd1010;
 }
 
 /* Header */
@@ -76,6 +184,7 @@ h1 {
   cursor: pointer;
   width: 80vw;
   border: 5px solid #dd1010;
+  border-radius: 1em;
 }
 .project-shown:hover {
   filter: brightness(0.5);
@@ -174,6 +283,7 @@ p {
 }
 .skill-container img {
   width: 35%;
+  height: 20vh;
   margin: 1em;
   background-color: #00093c;
   border: 2px solid #dd1010;
@@ -264,10 +374,11 @@ footer h1 {
   font-size: 0.5em;
 }
 .icons i {
+  transform: scale(1.5);
   color: #dd1010;
-  margin: 0 0.25em;
+  margin: 0 0.5em;
 }
 .fa-caret-up {
   color: white;
-  transform: scale(2);
+  transform: scale(2.5);
 }
