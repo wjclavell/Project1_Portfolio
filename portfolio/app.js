@@ -54,8 +54,10 @@ for (url in skills) {
 }
 
 //*projects slider
+//initialize
 let mySwiper = new Swiper(".swiper-container", {
   loop: true,
+  //add cube effect and set params
   effect: "cube",
   grabCursor: true,
   cubeEffect: {
@@ -64,10 +66,11 @@ let mySwiper = new Swiper(".swiper-container", {
     shadowOffset: 20,
     shadowScale: 0.94,
   },
-
+  //show pagination dots
   pagination: {
     el: ".swiper-pagination",
   },
+  //show buttons
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
