@@ -88,17 +88,17 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### MVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Hamburger | H | 1.5hr | -hr | -hr|
+| Hamburger | H | 1.5hr | 3hr | -hr|
 | Project carousel | H | 2hr | -hr | -hr|
 | Sticky Nav | H | 1hr | .5hr | -hr|
 | Grid and flex layout | H | 1.5hr| 3hr | -hr |
 | Other sections| H | 2hr | 2hr | -hr|
-| Project dropdow menu | M | 1.5hrs| -hr | -hr |
+| All projects page | M | 1.5hrs| -hr | -hr |
 | Responsive | H | 2hr | -hr | -hr|
 | Social Media Icons | L | .5hr | .25hr | -hr|
-| Project hover description | M | 1hr| -hr | -hr |
+| Project hover description | M | 1hr| 1hr | -hr |
 | Google API | H | 1hr | -hr | -hr|
-| Monogram | L | .5hr | 1hr | -hr|
+|	frfr| Monogram | L | .5hr | 1hr | -hr|
 | Total | - | 14.5hrs| -hrs | -hrs |
 
 #### PostMVP

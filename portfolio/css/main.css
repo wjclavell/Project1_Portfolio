@@ -173,16 +173,20 @@ h1 {
   grid-area: proj;
   background-color: #01185e;
 }
-.img-container {
+.swiper-container {
   display: flex;
-  flex-direction: column;
-  padding: 2em 1em;
+  width: 90vw;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-slide {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 .project-shown {
   cursor: pointer;
-  width: 80vw;
+  width: 70vw;
   border: 5px solid #dd1010;
   border-radius: 1em;
 }
@@ -192,15 +196,15 @@ h1 {
 .description {
   display: none;
 }
-.img-container a:hover .description {
+.swiper-container a:hover .description {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
-  bottom: 300px;
+  bottom: 50vh;
   text-align: center;
-  width: 80vw;
+  width: 70vw;
   color: white;
 }
 .description:hover {
@@ -224,9 +228,8 @@ p {
 .img-container button:hover {
   box-shadow: 0 0 1em 0.5em #e3e3e6;
 }
-.fa-chevron-right,
-.fa-chevron-left {
-  transform: scale(1.5);
+.swiper-button-next,
+.swiper-button-prev {
 }
 
 /* About Me */
