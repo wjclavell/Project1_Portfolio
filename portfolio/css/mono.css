@@ -18,7 +18,7 @@ header {
   width: 25%;
   margin: 0.5em;
   position: relative;
-  animation: reverse-side-swoop 4s ease-in-out;
+  /* animation: reverse-side-swoop 4s ease-in-out; */
 }
 .w1 {
   grid-area: w1;
@@ -95,7 +95,7 @@ header {
   width: 25%;
   margin: 0.5em;
   position: relative;
-  animation: down-swoop 4s ease-in-out;
+  /* animation: down-swoop 4s ease-in-out; */
 }
 .j1 {
   grid-area: j1;
@@ -165,7 +165,7 @@ header {
   width: 25%;
   margin: 0.5em;
   position: relative;
-  animation: side-swoop 4s ease-in-out;
+  /* animation: side-swoop 4s ease-in-out; */
 }
 .c1 {
   grid-area: c1;
