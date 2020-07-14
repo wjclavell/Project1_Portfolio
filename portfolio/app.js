@@ -3,15 +3,35 @@ function readMore() {
   const $dots = $("#dots");
   const $more = $("#more");
   const $buttontxt = $("#read-more");
+  let showAll = false;
 
-  if ($dots.display === "none") {
-    $dots.css("display", "inline");
-    $buttontxt.text('read more <i class="fas fa-chevron-down"></i>');
-    $more.css("display", "none");
-  } else {
+  if (showAll === false) {
     $dots.css("display", "none");
-    $buttontxt.css("display", "none");
+    $buttontxt.remove();
+    $(".about-me").append(
+      '<button onclick="readLess()" id="read-less">read less <i class="fas fa-chevron-up"></i></button>'
+    );
     $more.css("display", "inline");
+  } // else if (showAll === true) {
+  //   $dots.css("display", "inline");
+  //   $buttontxt.text("read more");
+  //   $more.css("display", "none");
+  // }
+}
+//*function to hide about me text
+function readLess() {
+  const $dots = $("#dots");
+  const $more = $("#more");
+  const $buttontxt = $("#read-less");
+  let showAll = true;
+
+  if (showAll === true) {
+    $dots.css("display", "inline");
+    $buttontxt.remove();
+    $(".about-me").append(
+      '<button onclick="readMore()" id="read-more">read more <i class="fas fa-chevron-down"></i></button>'
+    );
+    $more.css("display", "none");
   }
 }
 //* array of images to populate my skills section
@@ -24,7 +44,11 @@ let skills = [
   "https://openjsf.org/wp-content/uploads/sites/84/2019/10/jquery-logo-vertical_large_square.png",
   "https://pluspng.com/img-png/nodejs-logo-png--435.png",
   "https://cdn.iconscout.com/icon/free/png-512/heroku-5-569467.png",
-  "https://financesonline.com/uploads/2019/08/Adobe-After-Effects-logo1.png",
+  "https://cdn.freebiesupply.com/logos/large/2x/after-effects-cc-logo-png-transparent.png",
   "https://img.pngio.com/buy-adobe-education-contact-multiblue-and-receive-discounts-for-logo-adobe-illustrator-png-600_600.png",
-  "https://i.dlpng.com/static/png/1609840-photoshop-cc-logo-png-210x99-photoshop-logo-png-transparent-free-images-photoshop-logo-png-720_340_preview.png",
+  "https://cdn3.iconfinder.com/data/icons/logos-brands-3/24/logo_brand_brands_logos_adobe_photoshop-512.png",
 ];
+//*loop to populate skills section with logos of my skills
+for (url in skills) {
+  $(".skill-container").append(`<img src="${skills[url]}">`);
+}

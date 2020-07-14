@@ -8,8 +8,8 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Day 1| Project Description | Incomplete
-|Day 1| Wireframes / Priority Matrix / Timeline | Incomplete
+|Day 1| Project Description | Complete
+|Day 1| Wireframes / Priority Matrix / Timeline | Complete
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
 |Day 4| MVP & Bug Fixes | Incomplete
 |Day 5| Final Touches | Incomplete
@@ -90,15 +90,15 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | --- | :---: |  :---: | :---: | :---: |
 | Hamburger | H | 1.5hr | -hr | -hr|
 | Project carousel | H | 2hr | -hr | -hr|
-| Sticky Nav | H | 1hr | -hr | -hr|
-| Grid and flex layout | H | 1.5hr| -hr | -hr |
-| Other sections| H | 2hr | -hr | -hr|
+| Sticky Nav | H | 1hr | .5hr | -hr|
+| Grid and flex layout | H | 1.5hr| 3hr | -hr |
+| Other sections| H | 2hr | 2hr | -hr|
 | Project dropdow menu | M | 1.5hrs| -hr | -hr |
 | Responsive | H | 2hr | -hr | -hr|
-| Social Media Icons | L | .5hr | -hr | -hr|
+| Social Media Icons | L | .5hr | .25hr | -hr|
 | Project hover description | M | 1hr| -hr | -hr |
 | Google API | H | 1hr | -hr | -hr|
-| Monogram | L | .5hr | -hr | -hr|
+| Monogram | L | .5hr | 1hr | -hr|
 | Total | - | 14.5hrs| -hrs | -hrs |
 
 #### PostMVP
@@ -112,7 +112,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Total | - | 8.5hrs| -hrs | -hrs |
 
 ## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project. 
+ jQuery - used to populate skills section and project section 
 
 ## Code Snippet
 

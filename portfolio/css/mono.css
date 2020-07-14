@@ -14,11 +14,11 @@ header {
     "w1 h1 h2 w5"
     "w1 w11 w10 w5"
     "w8 w2 w4 w9";
-  height: 60%;
+  height: 50%;
   width: 25%;
   margin: 0.5em;
   position: relative;
-  /* animation: reverse-side-swoop 4s ease-in-out; */
+  animation: reverse-side-swoop 4s ease-in-out;
 }
 .w1 {
   grid-area: w1;
@@ -91,11 +91,11 @@ header {
     "h3 h5 j2 h4"
     "j3 h5 j2 h4"
     "j4 j6 j5 h4";
-  height: 60%;
+  height: 50%;
   width: 25%;
   margin: 0.5em;
   position: relative;
-  /* animation: down-swoop 4s ease-in-out; */
+  animation: down-swoop 4s ease-in-out;
 }
 .j1 {
   grid-area: j1;
@@ -161,11 +161,11 @@ header {
     "c4 h6 h6 h7"
     "c4 h6 h6 c6"
     "c7 c8 c8 c9";
-  height: 60%;
+  height: 50%;
   width: 25%;
   margin: 0.5em;
   position: relative;
-  /* animation: side-swoop 4s ease-in-out; */
+  animation: side-swoop 4s ease-in-out;
 }
 .c1 {
   grid-area: c1;
