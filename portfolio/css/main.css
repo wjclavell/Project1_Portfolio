@@ -486,6 +486,34 @@ footer h1 {
     box-shadow: 2em 0 3em 1em #020516;
     z-index: 2;
   }
+  .desksun {
+    margin-top: 0.5em;
+  }
+  .desklogo {
+    top: 0.5em;
+    transition: 0.4s;
+  }
+  .desklogo:hover {
+    color: #dd1010;
+  }
+  .navbar-list {
+    display: inline-flex;
+    position: absolute;
+    top: 0.5em;
+    right: 10em;
+  }
+  .navbar-list li {
+    font-size: 1.5em;
+    list-style: none;
+  }
+  .navbar-list li i {
+    color: #dd1010;
+    margin: 0 1em 1em 1em;
+  }
+  .navbar-list li a {
+    color: white;
+    text-decoration: none;
+  }
   header {
     height: 80vh;
     padding: 0;
