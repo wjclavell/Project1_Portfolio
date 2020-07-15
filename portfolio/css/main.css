@@ -14,6 +14,9 @@ body {
     "foot foot foot foot foot";
 }
 /* NAVIGATION */
+.navbar {
+  display: none;
+}
 .nav {
   position: fixed;
   top: 0;
@@ -417,6 +420,9 @@ footer h1 {
   h1 {
     font-size: 2em;
   }
+  .navbar {
+    display: none;
+  }
   .nav {
     height: 4em;
   }
@@ -464,8 +470,21 @@ footer h1 {
 }
 
 @media only screen and (min-width: 1000px) {
-  nav {
+  .nav {
+    display: none;
+  }
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    grid-area: nav;
+    background-color: #01185e;
+    width: 100%;
     height: 5em;
+    display: inline-flex;
+    justify-content: space-between;
+    box-shadow: 2em 0 3em 1em #020516;
+    z-index: 2;
   }
   header {
     height: 80vh;
