@@ -24,25 +24,25 @@ const app = (data) => {
   console.log(data);
 
   const createProjectElement = (project) => {
-    const $slide = $(`<div class="swiper-slide"><a href="${projects.url}"
+    const $projBox = $(`<div class="all-wrapper"><a href="${project.url}">
+    <img
+      class="all-img"
+      src="${project.image}"
+  /></a><a href="${project.url}"
       ><h1>${project.title}</h1></a
     >
     <p>
-      ${projects.description}
+      ${project.description}
     </p>
-    <a href="${projects.url}">
-      <img
-        class="project-shown"
-        src="${projects.image}"
-    /></a>
+    
   </div>`);
 
-    return $slide;
+    return $projBox;
   };
   //   $("body").append(createProjectElement(data[5]));
 
   data.forEach((project) => {
-    const $projectSlide = createProjectElement(project);
-    $(".swiper-wrapper").append($projectSlide);
+    const $projBox = createProjectElement(project);
+    $(".all-projects").append($projBox);
   });
 };
