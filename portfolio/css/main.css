@@ -443,7 +443,10 @@ footer h1 {
   .icons i {
     transform: scale(2);
     color: #dd1010;
-    margin: 0 1em;
+    padding: 0 1em;
+  }
+  footer {
+    height: 4em;
   }
   footer h1 {
     font-size: 1em;
@@ -454,6 +457,9 @@ footer h1 {
 }
 
 @media only screen and (min-width: 1000px) {
+  nav {
+    height: 5em;
+  }
   header {
     height: 80vh;
     padding: 0;
@@ -461,8 +467,15 @@ footer h1 {
   .welcome h1 {
     margin-top: 0;
   }
+  .swiper-container {
+    width: 70vw;
+  }
   .project-shown {
     height: 60vh;
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    transform: scale(2);
   }
   .about-flex {
     flex-direction: row;
@@ -482,5 +495,21 @@ footer h1 {
   #read-less,
   #dots {
     display: none;
+  }
+  .skill-container {
+    width: 75%;
+    margin: 0 auto;
+  }
+  .skill-container img {
+    width: 15%;
+    height: 15%;
+    margin: 1em;
+    border: 5px solid #dd1010;
+  }
+  footer {
+    height: 5em;
+  }
+  .icons i {
+    padding: 0 1em;
   }
 }
