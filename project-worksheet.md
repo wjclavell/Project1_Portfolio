@@ -113,6 +113,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 ## Additional Libraries
  jQuery - used to populate skills section and project section 
+ SwiperJS - used to create the cube project carousel
 
 ## Code Snippet
 

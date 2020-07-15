@@ -61,9 +61,9 @@ let mySwiper = new Swiper(".swiper-container", {
   grabCursor: true,
   cubeEffect: {
     shadow: true,
-    slideShadows: false,
-    shadowOffset: 20,
-    shadowScale: 0.94,
+    slideShadows: true,
+    shadowOffset: 10,
+    shadowScale: 0.74,
   },
   //show pagination dots
   pagination: {
