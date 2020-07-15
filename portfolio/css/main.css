@@ -175,6 +175,9 @@ h1 {
   grid-area: proj;
   background-color: #01185e;
 }
+.proj-head {
+  margin: 0.5em;
+}
 .projects h1 {
   margin: 0;
   margin-top: 1em;
@@ -193,11 +196,11 @@ h1 {
   color: white;
   font-style: italic;
   margin: 0;
+  margin-bottom: 1em;
 }
 .swiper-container {
   width: 90vw;
-  height: 65vh;
-  margin-top: 0;
+  height: 65%;
 }
 .swiper-slide {
   display: flex;
@@ -223,7 +226,7 @@ h1 {
 }
 .project-shown {
   cursor: pointer;
-  width: 80vw;
+  max-width: 80vw;
   border: 5px solid #dd1010;
 }
 .project-shown:hover {
@@ -279,6 +282,7 @@ h1 {
 .my-skills {
   grid-area: skl;
   background-color: #01185e;
+  padding-bottom: 1em;
 }
 .skill-container {
   display: flex;
@@ -288,7 +292,7 @@ h1 {
 }
 .skill-container img {
   width: 35%;
-  height: 20vh;
+  height: 20%;
   margin: 1em;
   background-color: #00093c;
   border: 2px solid #dd1010;
@@ -353,15 +357,19 @@ h1 {
   color: white;
   font-size: 1em;
   font-weight: bold;
-  padding-left: 5%;
   height: 3em;
   width: 70%;
   border: none;
   border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 4px 4px #720909;
 }
 .submit:hover {
   cursor: pointer;
-  background: #940a0a;
+  position: relative;
+  top: 4px;
+  box-shadow: inset 0px 4px 4px #720909;
 }
 
 /* Footer */
@@ -386,4 +394,47 @@ footer h1 {
 .fa-caret-up {
   color: white;
   transform: scale(2.5);
+}
+
+/* media queries for tablet and desktop*/
+@media only screen and (min-width: 600px) {
+  h1 {
+    font-size: 2em;
+  }
+  .nav {
+    height: 4em;
+  }
+  .fa-sun {
+    top: 1.5em;
+    margin: 0 2em;
+    transform: scale(2.5);
+  }
+  .fa-bars {
+    top: 2em;
+    margin: 0 2em;
+    transform: scale(2.5);
+  }
+  header {
+    height: 50vh;
+  }
+  .skill-container img {
+    width: 25vw;
+  }
+  .proj-head {
+    margin-top: 0.75em;
+  }
+  .projects > p {
+    font-size: 0.75em;
+  }
+  .icons i {
+    transform: scale(2);
+    color: #dd1010;
+    margin: 0 1em;
+  }
+  footer h1 {
+    font-size: 1em;
+  }
+  .fa-caret-up {
+    transform: scale(3.5);
+  }
 }
