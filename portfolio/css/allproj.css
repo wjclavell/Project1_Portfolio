@@ -102,3 +102,9 @@ footer h1 {
   color: #dd1010;
   margin: 0 0.5em;
 }
+@media only screen and (max-width: 600px) {
+  .all-img {
+    box-shadow: 0 0.25em 1em 3px #020516, 0 -0.25em 1em 3px #020516,
+      0.25em 0 1em 3px #020516, -0.25em 0 1em 3px #020516;
+  }
+}
