@@ -399,10 +399,13 @@ footer {
 footer h1 {
   font-size: 0.5em;
 }
+.icons {
+  display: flex;
+  justify-content: center;
+}
 .icons i {
   transform: scale(1.5);
   color: #dd1010;
-  margin: 0 0.5em;
 }
 .fa-caret-up {
   color: white;
@@ -430,8 +433,12 @@ footer h1 {
   header {
     height: 50vh;
   }
+  .skill-container {
+    width: 75%;
+    margin: 0 auto;
+  }
   .skill-container img {
-    width: 20vw;
+    width: 15vw;
     border: 5px solid #dd1010;
   }
   .proj-head {
