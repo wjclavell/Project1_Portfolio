@@ -62,7 +62,7 @@ let mySwiper = new Swiper(".swiper-container", {
   cubeEffect: {
     shadow: true,
     slideShadows: true,
-    shadowOffset: 10,
+    shadowOffset: 15,
     shadowScale: 0.74,
   },
   //show pagination dots
