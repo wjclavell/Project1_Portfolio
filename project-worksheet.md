@@ -10,7 +10,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |---|---| ---|
 |Day 1| Project Description | Complete
 |Day 1| Wireframes / Priority Matrix / Timeline | Complete
-|Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
 |Day 4| MVP & Bug Fixes | Incomplete
 |Day 5| Final Touches | Incomplete
 |Day 6| Present | Incomplete
@@ -93,11 +93,11 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Sticky Nav | H | 1hr | .5hr | -hr|
 | Grid and flex layout | H | 1.5hr| 3hr | -hr |
 | Other sections| H | 2hr | 2hr | -hr|
-| All projects page | M | 1.5hrs| -hr | -hr |
-| Responsive | H | 2hr | -hr | -hr|
+| All projects page | M | 1.5hrs| 1.5hr | -hr |
+| Responsive | H | 2hr | 4hr | -hr|
 | Social Media Icons | L | .5hr | .25hr | -hr|
 | Project hover description | M | 1hr| 2hr | -hr |
-| Google API | H | 1hr | -hr | -hr|
+| Google API | H | 1hr | 2hr | -hr|
 | Monogram | L | .5hr | 1hr | -hr|
 | Total | - | 14.5hrs| -hrs | -hrs |
 
@@ -106,7 +106,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | --- | :---: |  :---: | :---: | :---: |
 | Scroll animations | H | 2.5hr | -hr | -hr|
 | Dark/light mode | M | 1hr | -hr | -hr|
-| Personal logo | L | 1.5hr | -hr | -hr|
+| Personal logo | L | 1.5hr | .75hr | -hr|
 | Custom cursor | M | 1.5hr | -hr | -hr|
 | Drawing functionality | L | 2hr | -hr | -hr|
 | Total | - | 8.5hrs| -hrs | -hrs |
