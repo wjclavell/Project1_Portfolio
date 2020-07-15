@@ -8,7 +8,7 @@ function readMore() {
   if (showAll === false) {
     $dots.css("display", "none");
     $buttontxt.remove();
-    $(".about-me").append(
+    $(".about-flex").append(
       '<button onclick="readLess()" id="read-less">read less <i class="fas fa-chevron-up"></i></button>'
     );
     $more.css("display", "inline");
@@ -28,7 +28,7 @@ function readLess() {
   if (showAll === true) {
     $dots.css("display", "inline");
     $buttontxt.remove();
-    $(".about-me").append(
+    $(".about-flex").append(
       '<button onclick="readMore()" id="read-more">read more <i class="fas fa-chevron-down"></i></button>'
     );
     $more.css("display", "none");

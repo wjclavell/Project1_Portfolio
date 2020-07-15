@@ -250,11 +250,13 @@ h1 {
 /* About Me */
 .about-me {
   grid-area: am;
+  background-color: #00093c;
+  padding: 1em;
+}
+.about-flex {
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: #00093c;
-  padding: 1em;
 }
 .about-me img {
   height: 12em;
@@ -277,12 +279,14 @@ h1 {
 }
 #read-more {
   color: white;
+  text-align: center;
   background-color: transparent;
   border: none;
   margin: 1em;
 }
 #read-less {
   color: white;
+  text-align: center;
   background-color: transparent;
   border: none;
   margin: 1em;
