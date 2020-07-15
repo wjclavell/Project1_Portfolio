@@ -39,7 +39,7 @@ let skills = [
   "https://techcrunch.com/wp-content/uploads/2010/07/github-logo.png",
   "https://avatars3.githubusercontent.com/u/18133?s=200&v=4",
   "https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png",
-  "https://www.pinclipart.com/picdir/middle/175-1759459_eng-a-med-kamel-frameworks-css-css-logo.png",
+  "https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png",
   "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
   "https://openjsf.org/wp-content/uploads/sites/84/2019/10/jquery-logo-vertical_large_square.png",
   "https://pluspng.com/img-png/nodejs-logo-png--435.png",
