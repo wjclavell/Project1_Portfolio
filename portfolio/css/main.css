@@ -175,9 +175,16 @@ h1 {
   grid-area: proj;
   background-color: #01185e;
 }
-.projects > h1 {
+.projects h1 {
   margin: 0;
   margin-top: 1em;
+  cursor: pointer;
+}
+.projects > a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  cursor: pointer;
 }
 .projects > p {
   font-family: lora;
