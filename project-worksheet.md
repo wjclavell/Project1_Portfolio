@@ -92,7 +92,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Project carousel | H | 2hr | 4hr | -hr|
 | Sticky Nav | H | 1hr | .5hr | -hr|
 | Grid and flex layout | H | 1.5hr| 3hr | -hr |
-| Other sections| H | 2hr | 2hr | -hr|
+| Other sections| H | 2hr | 4hr | -hr|
 | All projects page | M | 1.5hrs| 1.5hr | -hr |
 | Responsive | H | 2hr | 4hr | -hr|
 | Social Media Icons | L | .5hr | .25hr | -hr|
