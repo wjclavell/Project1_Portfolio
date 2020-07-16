@@ -118,11 +118,24 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
+This function was used to create a read-more (and similarly a read-less) button for my About Me section. The text would be very long on smaller screens so I wrapped part of it in a span and was able to hide it and once pressed it will expand to show the full text. It will also create a new button underneath saying 'read less' so you can click and collapse the text as well.
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
+//*function to display complete about me on mobile
+function readMore() {
+  const $dots = $("#dots");
+  const $more = $("#more");
+  const $buttontxt = $("#read-more");
+  let showAll = false;
+
+  if (showAll === false) {
+    $dots.css("display", "none");
+    $buttontxt.remove();
+    $(".about-flex").append(
+      '<button onclick="readLess()" id="read-less">read less <i class="fas fa-chevron-up"></i></button>'
+    );
+    $more.css("display", "inline");
+  } 
 }
 ```
 

@@ -131,22 +131,24 @@ const app = (data) => {
 };
 
 //*function to automatically close hamburger menu when you choose a link
+const closeMenu = () => {
+  const $link1 = $("#link1");
+  const $link2 = $("#link2");
+  const $link3 = $("#link3");
+  const $link4 = $("#link4");
+  const $input = $("input");
 
-const $link1 = $("#link1");
-const $link2 = $("#link2");
-const $link3 = $("#link3");
-const $link4 = $("#link4");
-const $input = $("input");
-
-$link1.on("click", () => {
-  $input.prop("checked", false);
-});
-$link2.on("click", () => {
-  $input.prop("checked", false);
-});
-$link3.on("click", () => {
-  $input.prop("checked", false);
-});
-$link4.on("click", () => {
-  $input.prop("checked", false);
-});
+  $link1.on("click", () => {
+    $input.prop("checked", false);
+  });
+  $link2.on("click", () => {
+    $input.prop("checked", false);
+  });
+  $link3.on("click", () => {
+    $input.prop("checked", false);
+  });
+  $link4.on("click", () => {
+    $input.prop("checked", false);
+  });
+};
+closeMenu();
