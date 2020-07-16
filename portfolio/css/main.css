@@ -64,7 +64,7 @@ body {
 .logo img {
   width: 3em;
 }
-.burger label {
+.fa-times {
   position: absolute;
   right: 3em;
   top: 2em;
@@ -74,7 +74,7 @@ body {
   cursor: pointer;
   transition: 0.4s;
 }
-.burger label:hover {
+.fa-times:hover {
   color: #dd1010;
 }
 .burger ul {
