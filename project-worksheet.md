@@ -11,7 +11,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |Day 1| Project Description | Complete
 |Day 1| Wireframes / Priority Matrix / Timeline | Complete
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
-|Day 4| MVP & Bug Fixes | Incomplete
+|Day 4| MVP & Bug Fixes | Complete
 |Day 5| Final Touches | Incomplete
 |Day 6| Present | Incomplete
 
@@ -105,7 +105,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Scroll animations | H | 2.5hr | -hr | -hr|
-| Dark/light mode | M | 1hr | -hr | -hr|
+| Dark/light mode | M | 1hr | 2.25hr | -hr|
 | Personal logo | L | 1.5hr | .75hr | -hr|
 | Custom cursor | M | 1.5hr | -hr | -hr|
 | Drawing functionality | L | 2hr | -hr | -hr|
@@ -116,7 +116,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
  
  SwiperJS - used to create the cube project carousel
 
-## Code Snippet
+## Code Snippets
 
 This function was used to create a read-more (and similarly a read-less) button for my About Me section. The text would be very long on smaller screens so I wrapped part of it in a span and was able to hide it and once pressed it will expand to show the full text. It will also create a new button underneath saying 'read less' so you can click and collapse the text as well.
 
@@ -136,6 +136,26 @@ function readMore() {
     );
     $more.css("display", "inline");
   } 
+}
+```
+
+This function was used to get my dark/light mode toggle working. It will change my logo color, as well as the sun/moon icon, along with all the color styles of my webpage. It does this by accessing a checkbox input (which is linked to the icons) and using root variables that I have defined in CSS and changing the attribute name that holds these variables.
+
+```
+function switchTheme(e) {
+  if (e.target.checked) {
+    document.documentElement.setAttribute("data-theme", "light");
+    $(".logo img").attr(
+      "src",
+      "https://res.cloudinary.com/wjclavell/image/upload/v1594847186/WC_logo.png"
+    );
+  } else {
+    document.documentElement.setAttribute("data-theme", "dark");
+    $(".logo img").attr(
+      "src",
+      "https://res.cloudinary.com/wjclavell/image/upload/v1594847322/WC_logo_red.png"
+    );
+  }
 }
 ```
 
