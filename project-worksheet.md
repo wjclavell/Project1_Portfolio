@@ -18,6 +18,8 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 ## Project Description
 
+link to website --> [wjclavell.com]()
+
 My final project will be a personal portfolio website. It will include my projects that I've worked on (displayed in a dropdown menu and a image carousel), an About Me section, Skills section, and Contact form. Along with a header with my monogram, navbar/hamburger at top with links for each section & my personal logo, and a footer at the bottom including links to my social media and back to top button. I will be implementing scroll animations for each section and a dark/light mode feature as well.
 
 Some design inspirations:
