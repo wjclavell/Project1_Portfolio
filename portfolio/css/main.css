@@ -1,3 +1,21 @@
+:root {
+  --bgcolor1: #01185e;
+  --bgcolor2: #00093c;
+  --button: #ffffff;
+  --darkfont: #01185e;
+  --lightfont: #ffffff;
+  --red: #dd1010;
+  --shadow: #020516;
+}
+[data-theme="light"] {
+  --bgcolor1: #ffffff;
+  --bgcolor2: #dddddd;
+  --button: #01185e;
+  --darkfont: #00093c;
+  --lightfont: #01185e;
+  --red: #dd1010;
+  --shadow: #b3b3b3;
+}
 body {
   margin: 0;
   padding: 0;
@@ -141,7 +159,8 @@ input:checked ~ nav ul li:nth-child(3) {
 input:checked ~ nav ul li:nth-child(4) {
   transition-delay: 0.8s;
 }
-.fa-sun {
+.fa-sun,
+.fa-moon {
   color: white;
   position: absolute;
   top: 1em;
@@ -150,7 +169,11 @@ input:checked ~ nav ul li:nth-child(4) {
   transform: scale(1.5);
   transition: 0.4s;
 }
-.fa-sun:hover {
+.fa-moon {
+  color: #00093c;
+}
+.fa-sun:hover,
+.fa-moon:hover {
   color: #dd1010;
 }
 
@@ -431,7 +454,8 @@ footer h1 {
   .nav {
     height: 4em;
   }
-  .fa-sun {
+  .fa-sun,
+  .fa-moon {
     top: 1.5em;
     margin: 0 2em;
     transform: scale(2.5);
@@ -491,7 +515,8 @@ footer h1 {
     box-shadow: 2em 0 3em 1em #020516;
     z-index: 2;
   }
-  .desksun {
+  .fa-sun,
+  .fa-moon {
     margin-top: 0.5em;
   }
   .desklogo {

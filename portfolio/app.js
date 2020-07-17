@@ -159,3 +159,8 @@ $(".fa-caret-up").click(function (e) {
   $("html, body").animate({ scrollTop: 0 }, "slow");
   return false;
 });
+//*change icon from sun to moon on click
+const $darkLight = $(".theme-switch-wrapper label");
+$darkLight.on("click", () => {
+  $darkLight.toggleClass("fa-sun fa-moon");
+});
