@@ -18,7 +18,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 ## Project Description
 
-link to website --> [wjclavell.com]()
+link to website --> [wjclavell.com](https://wjclavell.com)
 
 My final project will be a personal portfolio website. It will include my projects that I've worked on (displayed in a dropdown menu and a image carousel), an About Me section, Skills section, and Contact form. Along with a header with my monogram, navbar/hamburger at top with links for each section & my personal logo, and a footer at the bottom including links to my social media and back to top button. I will be implementing scroll animations for each section and a dark/light mode feature as well.
 
@@ -88,7 +88,7 @@ Based on the initial logic defined in the previous sections try and breakdown th
 Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe.
 
 #### MVP
-| Component | Priority | Estimated Time | Time Invetsted | Actual Time |
+| Component | Priority | Estimated Time | ~ Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Hamburger | H | 1.5hr | 3hr | -hr|
 | Project carousel | H | 2hr | 4hr | -hr|
@@ -101,7 +101,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Project hover description | M | 1hr| 2hr | -hr |
 | Google API | H | 1hr | 2hr | -hr|
 | Monogram | L | .5hr | 1hr | -hr|
-| Total | - | 14.5hrs| -hrs | -hrs |
+| Total | - | 14.5hrs| 25.25hrs | -hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
