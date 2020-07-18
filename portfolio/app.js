@@ -53,29 +53,6 @@ for (logo in skills) {
   $(".skill-container").append(`<img src="${skills[logo]}">`);
 }
 
-//*projects slider
-//initialize
-let mySwiper = new Swiper(".swiper-container", {
-  //add cube effect and set params
-  effect: "cube",
-  grabCursor: true,
-  cubeEffect: {
-    shadow: true,
-    slideShadows: true,
-    shadowOffset: 15,
-    shadowScale: 0.74,
-  },
-  //show pagination dots
-  pagination: {
-    el: ".swiper-pagination",
-  },
-  //show buttons
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-});
-
 //*pull projects from googlesheets and populate projects slider with 'featured' projects
 const url =
   "https://spreadsheets.google.com/feeds/list/18r08nO91byLTxZ8zVRghWGyLtIKrXzBa8P6sGM9T19M/od6/public/values?alt=json";
@@ -98,10 +75,8 @@ fetch(url) //starts fetch process, to get the data
   });
 
 const app = (data) => {
-  console.log("app is running!");
-  console.log(data);
-
   const createProjectElement = (project) => {
+    //display projects in slider if they are 'featured' projects. Value in googlesheets
     if (project.featured === "TRUE") {
       const $projBox = $(`<div class="swiper-slide">
     <div class="proj-head">
@@ -122,9 +97,30 @@ const app = (data) => {
       return $projBox;
     }
   };
-  //   $("body").append(createProjectElement(data[5]));
 
   data.forEach((project) => {
+    //*projects slider
+    //initialize once data is recieved
+    let mySwiper = new Swiper(".swiper-container", {
+      //add cube effect and set params
+      effect: "cube",
+      grabCursor: true,
+      cubeEffect: {
+        shadow: true,
+        slideShadows: true,
+        shadowOffset: 15,
+        shadowScale: 0.74,
+      },
+      //show pagination dots
+      pagination: {
+        el: ".swiper-pagination",
+      },
+      //show buttons
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
     const $projBox = createProjectElement(project);
     $(".swiper-wrapper").append($projBox);
   });
@@ -159,6 +155,7 @@ $(".fa-caret-up").click(function (e) {
   $("html, body").animate({ scrollTop: 0 }, "slow");
   return false;
 });
+
 //*change icon from sun to moon on click
 const $darkLight = $(".theme-switch-wrapper label");
 $darkLight.on("click", () => {
