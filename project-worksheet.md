@@ -15,10 +15,11 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |Day 5| Final Touches | Incomplete
 |Day 6| Present | Incomplete
 
+## Portfolio Website
+
+link to my website --> [wjclavell.com](https://wjclavell.com)
 
 ## Project Description
-
-link to website --> [wjclavell.com](https://wjclavell.com)
 
 My final project will be a personal portfolio website. It will include my projects that I've worked on (displayed in a dropdown menu and a image carousel), an About Me section, Skills section, and Contact form. Along with a header with my monogram, navbar/hamburger at top with links for each section & my personal logo, and a footer at the bottom including links to my social media and back to top button. I will be implementing scroll animations for each section and a dark/light mode feature as well.
 
@@ -165,8 +166,8 @@ function switchTheme(e) {
  Use this section to list of all major issues encountered and their resolution.
 
 #### SAMPLE.....
-**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
-**RESOLUTION**: Missing comma after first object in sources {} object
+**ERROR**: My projects would not show up in the slider until I adjusted the window size, or swiped on top of it on mobile                                
+**RESOLUTION**: The slider was being created before the project data was retrieved. I nested the slider creation code block inside the the function where I am using the json data, this way they both are created at the same time and the project slider is displayed automatically.
 
 ## Previous Project Worksheet
  - [Readme's](https://github.com/jkeohan/fewd-class-repo/tree/master/final-project-worksheet/project-worksheet-examples)
