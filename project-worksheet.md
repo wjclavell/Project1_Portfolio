@@ -12,7 +12,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |Day 1| Wireframes / Priority Matrix / Timeline | Complete
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
 |Day 4| MVP & Bug Fixes | Complete
-|Day 5| Final Touches | Incomplete
+|Day 5| Final Touches | Complete
 |Day 6| Present | Incomplete
 
 ## Portfolio Website
@@ -39,7 +39,8 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 
 - [Mobile](https://res.cloudinary.com/wjclavell/image/upload/v1594606509/mobile-wireframe_wfp670.png)
 - [Tablet](https://res.cloudinary.com/wjclavell/image/upload/v1594654476/tablet-wireframe_cpjruc.png)
-- [Desktop](https://git.generalassemb.ly/SEIR-629/project-1-portfolio/blob/master/readme-assets/desktop.png)
+- [Desktop1](https://res.cloudinary.com/wjclavell/image/upload/v1595252301/IMG_1890_xuhosh.heic)
+- [Desktop2](https://res.cloudinary.com/wjclavell/image/upload/v1595252301/IMG_1891_st9kgl.jpg)
 
 Wireframing Resources:
 
@@ -89,7 +90,7 @@ Based on the initial logic defined in the previous sections try and breakdown th
 Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe.
 
 #### MVP
-| Component | Priority | Estimated Time | ~ Time Invetsted | Actual Time |
+| Component | Priority | Estimated Time | ~ Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Hamburger | H | 1.5hr | 3hr | 3hr|
 | Project carousel | H | 2hr | 4hr | 4hr|
@@ -102,12 +103,12 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Project hover description | M | 1hr| 2hr | 2hr |
 | Google API | H | 1hr | 2hr | 2hr|
 | Monogram | L | .5hr | 1hr | 1hr|
-| Total | - | 14.5hrs| 25.25hrs* | 25.25hrs |
+| Total | - | 14.5hrs| 25.25hrs* | 25.25hrs* |
 
- *My time tracking skills were not that great...Time Invested was most likely higher than recorded
+ *My time tracking skills were not that great...Times were most likely higher than recorded
 
 #### PostMVP
-| Component | Priority | Estimated Time | Time Invetsted | Actual Time |
+| Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Scroll animations | H | 2.5hr | -hr | -hr|
 | Dark/light mode | M | 1hr | 2.25hr | 2.25hr|
@@ -125,7 +126,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 This function was used to create a read-more (and similarly a read-less) button for my About Me section. The text would be very long on smaller screens so I wrapped part of it in a span and was able to hide it and once pressed it will expand to show the full text. It will also create a new button underneath saying 'read less' so you can click and collapse the text as well.
 
-```
+```JS
 //*function to display complete about me on mobile
 function readMore() {
   const $dots = $("#dots");
@@ -146,7 +147,7 @@ function readMore() {
 
 This function was used to get my dark/light mode toggle working. It will change my logo color, as well as the sun/moon icon, along with all the color styles of my webpage. It does this by accessing a checkbox input (which is linked to the icons) and using root variables that I have defined in CSS and changing the attribute name that holds these variables.
 
-```
+```JS
 function switchTheme(e) {
   if (e.target.checked) {
     document.documentElement.setAttribute("data-theme", "light");
@@ -167,7 +168,6 @@ function switchTheme(e) {
 ## Issues and Resolutions
  Use this section to list of all major issues encountered and their resolution.
 
-#### SAMPLE.....
 **ERROR**: My projects would not show up in the slider until I adjusted the window size, or swiped on top of it on mobile                                
 **RESOLUTION**: The slider was being created before the project data was retrieved. I nested the slider creation code block inside the the function where I am using the json data, this way they both are created at the same time and the project slider is displayed automatically.
 
