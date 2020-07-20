@@ -98,7 +98,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Grid and flex layout | H | 1.5hr| 3hr | 3hr |
 | Other sections| H | 2hr | 4hr | 4hr|
 | All projects page | M | 1.5hrs| 1.5hr | 1.5hr |
-| Responsive | H | 2hr | 4hr | -hr|
+| Responsive | H | 2hr | 4hr | 4hr|
 | Social Media Icons | L | .5hr | .25hr | .25hr|
 | Project hover description | M | 1hr| 2hr | 2hr |
 | Google API | H | 1hr | 2hr | 2hr|
