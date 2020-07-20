@@ -91,25 +91,27 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### MVP
 | Component | Priority | Estimated Time | ~ Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Hamburger | H | 1.5hr | 3hr | -hr|
-| Project carousel | H | 2hr | 4hr | -hr|
-| Sticky Nav | H | 1hr | .5hr | -hr|
-| Grid and flex layout | H | 1.5hr| 3hr | -hr |
-| Other sections| H | 2hr | 4hr | -hr|
-| All projects page | M | 1.5hrs| 1.5hr | -hr |
+| Hamburger | H | 1.5hr | 3hr | 3hr|
+| Project carousel | H | 2hr | 4hr | 4hr|
+| Sticky Nav | H | 1hr | .5hr | .5hr|
+| Grid and flex layout | H | 1.5hr| 3hr | 3hr |
+| Other sections| H | 2hr | 4hr | 4hr|
+| All projects page | M | 1.5hrs| 1.5hr | 1.5hr |
 | Responsive | H | 2hr | 4hr | -hr|
-| Social Media Icons | L | .5hr | .25hr | -hr|
-| Project hover description | M | 1hr| 2hr | -hr |
-| Google API | H | 1hr | 2hr | -hr|
-| Monogram | L | .5hr | 1hr | -hr|
-| Total | - | 14.5hrs| 25.25hrs | -hrs |
+| Social Media Icons | L | .5hr | .25hr | .25hr|
+| Project hover description | M | 1hr| 2hr | 2hr |
+| Google API | H | 1hr | 2hr | 2hr|
+| Monogram | L | .5hr | 1hr | 1hr|
+| Total | - | 14.5hrs| 25.25hrs* | 25.25hrs |
+
+ *My time tracking skills were not that great...Time Invested was most likely higher than recorded
 
 #### PostMVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Scroll animations | H | 2.5hr | -hr | -hr|
-| Dark/light mode | M | 1hr | 2.25hr | -hr|
-| Personal logo | L | 1.5hr | .75hr | -hr|
+| Dark/light mode | M | 1hr | 2.25hr | 2.25hr|
+| Personal logo | L | 1.5hr | .75hr | .75hr|
 | Custom cursor | M | 1.5hr | -hr | -hr|
 | Drawing functionality | L | 2hr | -hr | -hr|
 | Total | - | 8.5hrs| -hrs | -hrs |
